@@ -1,0 +1,28 @@
+2026-02-18 17:19:09 - INFO - [Target] coffee
+2026-02-18 17:19:11 - INFO - ----- latent inversion -----
+2026-02-18 17:19:14 - INFO - epoch: 1, total_loss: 69.3905
+2026-02-18 17:20:01 - INFO - epoch: 100, total_loss: 3.1893
+2026-02-18 17:20:48 - INFO - epoch: 200, total_loss: 1.4426
+2026-02-18 17:21:32 - INFO - epoch: 300, total_loss: 0.9571
+2026-02-18 17:22:04 - INFO - epoch: 400, total_loss: 0.5644
+2026-02-18 17:22:34 - INFO - epoch: 500, total_loss: 0.5127
+2026-02-18 17:22:34 - INFO - Latent inversion completed in 203.30 seconds
+2026-02-18 17:22:34 - INFO - ----- image optimization -----
+2026-02-18 17:22:35 - INFO - epoch: 1, total_loss: 85.0567
+2026-02-18 17:23:13 - INFO - epoch: 100, total_loss: 22.5699
+2026-02-18 17:23:57 - INFO - epoch: 200, total_loss: 15.0682
+2026-02-18 17:24:57 - INFO - epoch: 300, total_loss: 13.9354
+2026-02-18 17:25:58 - INFO - epoch: 400, total_loss: 13.6520
+2026-02-18 17:26:58 - INFO - epoch: 500, total_loss: 13.3303
+2026-02-18 17:26:58 - INFO - Latent optimization completed in 264.22 seconds
+2026-02-18 17:26:58 - INFO - Optimized SVG saved to: ../output/example_generation/coffee/coffee_optim_latent.svg
+2026-02-18 17:26:58 - INFO - ----- point optimization -----
+2026-02-18 17:26:59 - INFO - epoch: 1, total_loss: 31.576794
+2026-02-18 17:27:57 - INFO - epoch: 100, total_loss: 14.683743
+2026-02-18 17:28:56 - INFO - epoch: 200, total_loss: 13.160076
+2026-02-18 17:29:56 - INFO - epoch: 300, total_loss: 12.330209
+2026-02-18 17:30:55 - INFO - epoch: 400, total_loss: 11.711220
+2026-02-18 17:31:55 - INFO - epoch: 500, total_loss: 10.837184
+2026-02-18 17:31:55 - INFO - Point-optimized SVG saved to: ../output/example_generation/coffee/coffee_optim_point.svg
+2026-02-18 17:31:55 - INFO - Point optimization completed in 296.92 seconds
+2026-02-18 17:31:55 - INFO - Total optimization time: 766.56 seconds
