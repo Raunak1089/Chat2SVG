@@ -1,0 +1,28 @@
+2026-02-20 06:45:37 - INFO - [Target] ice_cream
+2026-02-20 06:45:38 - INFO - ----- latent inversion -----
+2026-02-20 06:45:38 - INFO - epoch: 1, total_loss: 63.0683
+2026-02-20 06:45:49 - INFO - epoch: 100, total_loss: 4.2421
+2026-02-20 06:45:59 - INFO - epoch: 200, total_loss: 1.7550
+2026-02-20 06:46:09 - INFO - epoch: 300, total_loss: 1.0021
+2026-02-20 06:46:19 - INFO - epoch: 400, total_loss: 0.6951
+2026-02-20 06:46:30 - INFO - epoch: 500, total_loss: 0.6617
+2026-02-20 06:46:30 - INFO - Latent inversion completed in 51.63 seconds
+2026-02-20 06:46:30 - INFO - ----- image optimization -----
+2026-02-20 06:46:30 - INFO - epoch: 1, total_loss: 17.9925
+2026-02-20 06:46:52 - INFO - epoch: 100, total_loss: 2.3429
+2026-02-20 06:47:15 - INFO - epoch: 200, total_loss: 2.0024
+2026-02-20 06:47:38 - INFO - epoch: 300, total_loss: 1.9834
+2026-02-20 06:48:01 - INFO - epoch: 400, total_loss: 1.9583
+2026-02-20 06:48:23 - INFO - epoch: 500, total_loss: 1.9336
+2026-02-20 06:48:24 - INFO - Latent optimization completed in 113.98 seconds
+2026-02-20 06:48:24 - INFO - Optimized SVG saved to: ../output/example_generation/ice_cream/ice_cream_optim_latent.svg
+2026-02-20 06:48:24 - INFO - ----- point optimization -----
+2026-02-20 06:48:24 - INFO - epoch: 1, total_loss: 7.350487
+2026-02-20 06:48:55 - INFO - epoch: 100, total_loss: 2.230419
+2026-02-20 06:49:27 - INFO - epoch: 200, total_loss: 2.081053
+2026-02-20 06:49:58 - INFO - epoch: 300, total_loss: 2.006321
+2026-02-20 06:50:30 - INFO - epoch: 400, total_loss: 1.945900
+2026-02-20 06:51:02 - INFO - epoch: 500, total_loss: 1.853604
+2026-02-20 06:51:02 - INFO - Point-optimized SVG saved to: ../output/example_generation/ice_cream/ice_cream_optim_point.svg
+2026-02-20 06:51:02 - INFO - Point optimization completed in 158.56 seconds
+2026-02-20 06:51:02 - INFO - Total optimization time: 325.37 seconds
