@@ -1,0 +1,28 @@
+2026-02-14 16:41:28 - INFO - [Target] apple
+2026-02-14 16:41:30 - INFO - ----- latent inversion -----
+2026-02-14 16:41:42 - INFO - epoch: 1, total_loss: 38.2348
+2026-02-14 16:41:57 - INFO - epoch: 100, total_loss: 2.4496
+2026-02-14 16:42:08 - INFO - epoch: 200, total_loss: 1.5095
+2026-02-14 16:42:20 - INFO - epoch: 300, total_loss: 0.6391
+2026-02-14 16:42:32 - INFO - epoch: 400, total_loss: 0.3538
+2026-02-14 16:42:44 - INFO - epoch: 500, total_loss: 0.3071
+2026-02-14 16:42:44 - INFO - Latent inversion completed in 74.09 seconds
+2026-02-14 16:42:44 - INFO - ----- image optimization -----
+2026-02-14 16:42:59 - INFO - epoch: 1, total_loss: 17.6644
+2026-02-14 16:43:17 - INFO - epoch: 100, total_loss: 1.2029
+2026-02-14 16:43:34 - INFO - epoch: 200, total_loss: 0.8874
+2026-02-14 16:43:52 - INFO - epoch: 300, total_loss: 0.7640
+2026-02-14 16:44:10 - INFO - epoch: 400, total_loss: 0.6876
+2026-02-14 16:44:28 - INFO - epoch: 500, total_loss: 0.6922
+2026-02-14 16:44:28 - INFO - Latent optimization completed in 103.65 seconds
+2026-02-14 16:44:28 - INFO - Optimized SVG saved to: ../output/example_generation/apple/apple_optim_latent.svg
+2026-02-14 16:44:28 - INFO - ----- point optimization -----
+2026-02-14 16:44:28 - INFO - epoch: 1, total_loss: 8.028897
+2026-02-14 16:44:45 - INFO - epoch: 100, total_loss: 0.969654
+2026-02-14 16:45:02 - INFO - epoch: 200, total_loss: 0.888463
+2026-02-14 16:45:20 - INFO - epoch: 300, total_loss: 0.828932
+2026-02-14 16:45:37 - INFO - epoch: 400, total_loss: 0.774194
+2026-02-14 16:45:54 - INFO - epoch: 500, total_loss: 0.700549
+2026-02-14 16:45:54 - INFO - Point-optimized SVG saved to: ../output/example_generation/apple/apple_optim_point.svg
+2026-02-14 16:45:54 - INFO - Point optimization completed in 86.56 seconds
+2026-02-14 16:45:54 - INFO - Total optimization time: 266.85 seconds
