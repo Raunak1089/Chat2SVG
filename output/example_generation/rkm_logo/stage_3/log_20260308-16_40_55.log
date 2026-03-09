@@ -1,0 +1,28 @@
+2026-03-08 16:40:58 - INFO - [Target] rkm_logo
+2026-03-08 16:41:00 - INFO - ----- latent inversion -----
+2026-03-08 16:41:01 - INFO - epoch: 1, total_loss: 65.9592
+2026-03-08 16:42:05 - INFO - epoch: 100, total_loss: 2.9386
+2026-03-08 16:43:13 - INFO - epoch: 200, total_loss: 1.5186
+2026-03-08 16:44:19 - INFO - epoch: 300, total_loss: 0.9630
+2026-03-08 16:45:26 - INFO - epoch: 400, total_loss: 0.6222
+2026-03-08 16:46:32 - INFO - epoch: 500, total_loss: 0.5692
+2026-03-08 16:46:32 - INFO - Latent inversion completed in 332.33 seconds
+2026-03-08 16:46:32 - INFO - ----- image optimization -----
+2026-03-08 16:46:33 - INFO - epoch: 1, total_loss: 202.8869
+2026-03-08 16:48:13 - INFO - epoch: 100, total_loss: 48.1171
+2026-03-08 16:49:41 - INFO - epoch: 200, total_loss: 36.3137
+2026-03-08 16:51:17 - INFO - epoch: 300, total_loss: 33.2974
+2026-03-08 16:53:00 - INFO - epoch: 400, total_loss: 31.0782
+2026-03-08 16:54:44 - INFO - epoch: 500, total_loss: 28.9836
+2026-03-08 16:54:45 - INFO - Latent optimization completed in 492.96 seconds
+2026-03-08 16:54:45 - INFO - Optimized SVG saved to: ../output/example_generation/rkm_logo/rkm_logo_optim_latent.svg
+2026-03-08 16:54:45 - INFO - ----- point optimization -----
+2026-03-08 16:54:46 - INFO - epoch: 1, total_loss: 57.015514
+2026-03-08 16:56:18 - INFO - epoch: 100, total_loss: 28.935600
+2026-03-08 16:57:55 - INFO - epoch: 200, total_loss: 24.710012
+2026-03-08 16:59:35 - INFO - epoch: 300, total_loss: 20.682959
+2026-03-08 17:01:17 - INFO - epoch: 400, total_loss: 15.816756
+2026-03-08 17:03:02 - INFO - epoch: 500, total_loss: 9.268988
+2026-03-08 17:03:03 - INFO - Point-optimized SVG saved to: ../output/example_generation/rkm_logo/rkm_logo_optim_point.svg
+2026-03-08 17:03:03 - INFO - Point optimization completed in 498.12 seconds
+2026-03-08 17:03:03 - INFO - Total optimization time: 1325.32 seconds
