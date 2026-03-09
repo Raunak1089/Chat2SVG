@@ -187,11 +187,22 @@ def select_masks(cfg, masks_template: List[dict], masks_target: List[dict]) -> L
     return masks_added
 
 
-def calculate_iou(mask1: np.ndarray, mask2: np.ndarray) -> float:
-    """Calculate Intersection over Union (IoU) for two masks."""
+def calculate_iou(mask1, mask2):
+    import cv2
+    import numpy as np
+    
+    # If the images are different sizes, resize mask2 to perfectly match mask1
+    if mask1.shape != mask2.shape:
+        # cv2.resize takes dimensions as (width, height)
+        mask2 = cv2.resize(
+            mask2.astype(np.uint8), 
+            (mask1.shape[1], mask1.shape[0]), 
+            interpolation=cv2.INTER_NEAREST
+        ).astype(bool)
+
     intersection = np.logical_and(mask1, mask2)
     union = np.logical_or(mask1, mask2)
-    return intersection.sum() / union.sum()
+    return np.sum(intersection) / np.sum(union)
 
 
 def sam_add_paths(cfg, svg: SVG, target_image_path: str, final_svg_path: str, mask_generator_coarse: SamAutomaticMaskGenerator, mask_generator_fine: SamAutomaticMaskGenerator) -> None:
